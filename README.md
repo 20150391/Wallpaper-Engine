@@ -71,7 +71,7 @@ npm install sharp</code></pre>
   </p>
 
   <p>
-    This project is designed to provide a simple, professional, and convenient
-    way to discover, enhance, and download high-quality wallpapers.
+The .exe file is coming if you don't <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
+  </p>
   </p>
 </section>

@@ -66,12 +66,11 @@ npm install sharp</code></pre>
   <p>
     <strong>Background Changer is currently in development.</strong> The core
     wallpaper selection, download, and 4K image-processing features are being
-    prepared. Additional preset backgrounds, automatically loaded website data,
-    and an installer method are <em>coming soon</em>.
+    prepared. Additional preset backgrounds, automatically loaded website data are<em>coming soon</em>.
   </p>
 
   <p>
-The .exe file is coming if you don't <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
+The .exe, or, installer file is coming if you don't <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
   </p>
   </p>
 </section>

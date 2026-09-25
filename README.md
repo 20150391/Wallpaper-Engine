@@ -72,5 +72,10 @@ npm install sharp</code></pre>
   <p>
 The .exe, or, installer file is coming if you <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
   </p>
+
+  <h3>Animated Backgrounds</h3>
+  <p>
+  It is <em>suggested</em>that you install the lively wallpaper app <strong>before</strong>running <pre><code>npm start</code></pre>, this is to make your <em>experience</em>better overall. This is because, it can become <em>slower</em>if you don't install lively <em>before</em>you run <pre>npm start</pre>
   </p>
+  
 </section>

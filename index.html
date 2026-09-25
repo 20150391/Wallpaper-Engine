@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Background Maker</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:#111;
+    color:white;
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Make your images into backgrounds</h1>
+
+<button onclick="window.electronAPI.getStarted()">
+Get Started
+</button>
+
+</body>
+</html>

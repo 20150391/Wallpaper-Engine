@@ -1,0 +1,29 @@
+{
+  "name": "image-background-maker",
+  "version": "1.0.0",
+  "description": "Turn images into backgrounds",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.35.4",
+    "wallpaper": "^7.3.1"
+  },
+  "devDependencies": {
+    "electron": "^44.4.5",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.mycompany.backgroundmaker",
+    "productName": "Background Maker",
+    "win": {
+      "icon": "assets/app-logo.ico"
+    }
+  }
+}

@@ -70,7 +70,7 @@ npm install sharp</code></pre>
   </p>
 
   <p>
-The .exe, or, installer file is coming if you don't <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
+The .exe, or, installer file is coming if you <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
   </p>
   </p>
 </section>

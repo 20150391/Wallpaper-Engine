@@ -80,7 +80,7 @@ The .exe, or, installer file is coming if you <em>want</em> to download it, but 
 
   <h4>How to use command line</h4>
   <p>
-   Use /help, to see <em>all</em> the commands. Use /search to search filter for key words and descriptions, for example, /search ice, finds images that are ice, then displays them, t reset the filter, simply type in /search.
+   Use /help, to see <em>all</em> the commands. Use /search to search filter for key words and descriptions, for example, /search ice, finds images that are ice, then displays them, t reset the filter, simply type in /search. MAKE SURE THAT THIS PROJECT IS DOWNLOADED IN C:/Users IF YOU WANT TO BE ABLE TO JUST CLICK THE THE start-app.bat FILE AND FOR IT TO OPEN INSTEAD OF TYPING THE COMMAND!!!
   </p>
 
   <h5>All the commands</h5>

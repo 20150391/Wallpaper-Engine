@@ -78,6 +78,8 @@ The .exe, or, installer file is coming if you <em>want</em> to download it, but 
   It is <em>suggested</em> that you install the lively wallpaper app <strong>before</strong> running npm start. This is to make your <em>experience</em> better overall. This is because, it can become <em>slower</em> if you don't install lively <em>before</em> you run npm start. <strong>Note:</strong> Lively put's a <em>lot</em> of strain on your gpu, so it's <strong>recommended</strong> that you only use moving wallpapers on devices that can handle it. <pre><code>npm start</code></pre>
   </p>
 
+<section>
+
   <h4>How to use command line</h4>
   <p>
    Use /help, to see <em>all</em> the commands. Use /search to search filter for key words and descriptions, for example, /search ice, finds images that are ice, then displays them, t reset the filter, simply type in /search.

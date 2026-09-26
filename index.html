@@ -1,38 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Image Background Maker</title>
-
-<style>
-body{
-    font-family: Arial, sans-serif;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    background:#111;
-    color:white;
-}
-
-button{
-    padding:15px 30px;
-    font-size:18px;
-    border:none;
-    border-radius:10px;
-    cursor:pointer;
-}
-</style>
-</head>
-
-<body>
-
-<h1>Make your images into backgrounds</h1>
-
-<button onclick="window.electronAPI.getStarted()">
-Get Started
-</button>
-
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Base44 APP</title>
+    <script>try{if(localStorage.getItem('sv-theme')==='light')document.documentElement.classList.add('light')}catch(e){}</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

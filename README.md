@@ -145,7 +145,7 @@ npm install sharp</code></pre>
 
 &#x20; <p>
 
-The .exe, or, installer file is coming if you <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:)
+The .exe, or, installer file is coming if you <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:) If you run npm run build, then go to /dist, then run Background Maker Setup 1.0.0.exe, you will be able to have it on your home screen! If you don't want BG App Code you can delete it, it's really only for the modders out there.
 
 &#x20; </p>
 

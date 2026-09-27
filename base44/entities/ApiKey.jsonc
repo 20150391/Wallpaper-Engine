@@ -1,0 +1,32 @@
+{
+  "name": "ApiKey",
+  "type": "object",
+  "title": "ApiKey",
+  "properties": {
+    "key": {
+      "type": "string",
+      "title": "Key"
+    },
+    "label": {
+      "type": "string",
+      "title": "Label"
+    }
+  },
+  "required": [
+    "key"
+  ],
+  "rls": {
+    "read": {},
+    "create": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

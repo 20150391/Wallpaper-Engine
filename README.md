@@ -70,6 +70,8 @@
 
 &#x20;   used to install project dependencies and run build commands.
 
+&#x20;   You should install lively before, and run it before adding an animated wallpaper.
+
 &#x20;   Also, when running these commands, make sure not to run it on the folder called 'BG App Code', that's just the code of the website. You can edit the code, and make the code load instead of the website, but you'll lose out on a <strong>bunch</strong> of features, with the only reason to want to load the file, is because you want to modify it (allowed), or run it offline.
 
 &#x20; </p>

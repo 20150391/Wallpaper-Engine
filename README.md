@@ -1,187 +1,162 @@
 <section class="project-description">
+  <h1>Background Changer</h1>
 
-&#x20; <h1>Background Changer</h1>
+  <p>
+    <strong>Background Changer</strong> is a modern wallpaper application that
+    allows users to browse and download high-quality preset backgrounds. Select
+    your preferred background, download it, and use it as your device wallpaper.
+    An optional installer is also planned to make the wallpaper setup process
+    faster and more convenient.
+  </p>
 
+  <p>
+    Each selected background can be processed and converted to
+    <strong>4K resolution</strong> using the
+    <em>Sharp image-processing library</em>. This helps produce sharper,
+    higher-quality images that look great on desktops, laptops, and large
+    displays.
+  </p>
 
+  <h2>Features</h2>
 
-&#x20; <p>
+  <ul>
+    <li>
+      <strong>Preset backgrounds:</strong>
+      Choose from a collection of ready-to-use wallpapers.
+    </li>
+    <li>
+      <strong>4K conversion:</strong>
+      Optimize and convert images to 4K resolution using Sharp.
+    </li>
+    <li>
+      <strong>Easy downloads:</strong>
+      Download your selected background with one click.
+    </li>
+    <li>
+      <strong>Wallpaper setup:</strong>
+      Use downloaded images as your device background. An installer-based setup
+      method is planned for a future release.
+    </li>
+    <li>
+      <strong>Responsive design:</strong>
+      Use the website across desktop and mobile devices.
+    </li>
+    <li>
+      <strong>Upcoming content:</strong>
+      More backgrounds and dynamically loaded website data are coming soon.
+    </li>
+  </ul>
 
-&#x20;   <strong>Background Changer</strong> is a modern wallpaper tool that allows
+  <h2>Installation Requirements</h2>
 
-&#x20;   users to browse and download high-quality preset backgrounds. Choose your
+  <p>
+    To run and build the website locally, you need
+    <strong>Node.js</strong>. Node.js includes <strong>npm</strong>, which is
+    used to install project dependencies and run development and build commands.
+  </p>
 
-&#x20;   favorite background, download it, and use it as your device wallpaper.
+  <p>
+    If you plan to use animated wallpapers, install
+    <strong>Lively Wallpaper</strong> before adding or running an animated
+    background. Lively Wallpaper is recommended for animated backgrounds, but
+    it can place significant strain on your GPU. Only use moving wallpapers on
+    devices capable of handling the additional graphics workload.
+  </p>
 
-&#x20;   An optional installer method is also planned to make the wallpaper setup
+  <p>
+    The <strong>BG App Code</strong> folder contains the website's source code.
+    It is intended for users who want to modify the application or run it
+    offline. Running the source code locally may not provide all features
+    available in the complete website or installer.
+  </p>
 
-&#x20;   process faster and more convenient.
+  <ol>
+    <li>Download and install Node.js from the official Node.js website.</li>
+    <li>Open a terminal inside the project folder.</li>
+    <li>Install the project dependencies.</li>
+    <li>Install the Sharp image-processing library.</li>
+  </ol>
 
-&#x20; </p>
-
-
-
-&#x20; <p>
-
-&#x20;   Each selected background is processed and converted to
-
-&#x20;   <strong>4K resolution</strong> using the
-
-&#x20;   <em>Sharp image-processing library</em>. This helps provide sharper,
-
-&#x20;   higher-quality images that look great on desktops, laptops, and large
-
-&#x20;   displays.
-
-&#x20; </p>
-
-
-
-&#x20; <h2>Features</h2>
-
-
-
-&#x20; <ul>
-
-&#x20;   <li><strong>Preset backgrounds:</strong> Choose from a collection of ready-to-use wallpapers.</li>
-
-&#x20;   <li><strong>4K conversion:</strong> Images are optimized and converted to 4K using Sharp.</li>
-
-&#x20;   <li><strong>Easy downloads:</strong> Download your selected background with one click.</li>
-
-&#x20;   <li><strong>Wallpaper setup:</strong> The downloaded image can be set as your background. An installer-based setup method is planned for future versions.</li>
-
-&#x20;   <li><strong>Responsive design:</strong> The website is designed to work across desktop and mobile screens.</li>
-
-&#x20;   <li><strong>Upcoming content:</strong> More backgrounds and dynamically loaded website data are coming soon.</li>
-
-&#x20; </ul>
-
-
-
-&#x20; <h2>Installation Requirements</h2>
-
-
-
-&#x20; <p>
-
-&#x20;   To run and build this website locally, you need to install
-
-&#x20;   <strong>Node.js</strong>. Node.js includes <strong>npm</strong>, which is
-
-&#x20;   used to install project dependencies and run build commands.
-
-&#x20;   You should install lively before, and run it before adding an animated wallpaper.
-
-&#x20;   Also, when running these commands, make sure not to run it on the folder called 'BG App Code', that's just the code of the website. You can edit the code, and make the code load instead of the website, but you'll lose out on a <strong>bunch</strong> of features, with the only reason to want to load the file, is because you want to modify it (allowed), or run it offline.
-
-&#x20; </p>
-
-
-
-&#x20; <ol>
-
-&#x20;   <li>Download and install Node.js from the official Node.js website.</li>
-
-&#x20;   <li>Open a terminal inside the project folder.</li>
-
-&#x20;   <li>Install the project dependencies.</li>
-
-&#x20;   <li>Install the Sharp image-processing library.</li>
-
-&#x20; </ol>
-
-
-
-&#x20; <pre><code>npm install
+  <pre><code>npm install
 npm install sharp</code></pre>
 
+  <h2>Building the Website</h2>
 
+  <p>
+    After installing Node.js, npm, and Sharp, create a production build of the
+    website by running:
+  </p>
 
-&#x20; <h2>Building the Website</h2>
+  <pre><code>npm run build</code></pre>
 
+  <p>
+    The build command compiles and optimizes the project files for deployment.
+    The completed website can then be hosted on a web server or connected to an
+    installer method in a future release.
+  </p>
 
+  <h2>Desktop Installer</h2>
 
-&#x20; <p>
+  <p>
+    A desktop installer is planned for users who prefer a simpler installation
+    process. After running the production build, open the
+    <code>/dist</code> folder and run:
+  </p>
 
-&#x20;   After installing Node.js, npm, and Sharp, create the production version of
+  <pre><code>Background Maker Setup 1.0.0.exe</code></pre>
 
-&#x20;   the website by running:
+  <p>
+    The installer will allow the application to be added to your device's home
+    screen. A downloadable installer containing the available backgrounds is
+    also planned.
+  </p>
 
-&#x20; </p>
+  <p>
+    If you do not need the source code, you can remove the
+    <strong>BG App Code</strong> folder. It is primarily intended for developers
+    and users who want to modify or run the website locally.
+  </p>
 
+  <h2>Animated Backgrounds</h2>
 
+  <p>
+    It is recommended that you install
+    <strong>Lively Wallpaper</strong> before running the application with:
+  </p>
 
-&#x20; <pre><code>npm run build</code></pre>
+  <pre><code>npm start</code></pre>
 
+  <p>
+    Installing Lively Wallpaper first may provide a smoother experience when
+    using animated backgrounds. Because animated wallpapers can use significant
+    GPU resources, they should only be enabled on devices that can handle the
+    additional workload. It is recommended that you also <strong>run</strong> Lively Wallpaper <em>before</em> you install an animated background.
+  </p>
 
+  <h2>Command-Line Controls</h2>
 
-&#x20; <p>
+  <p>
+    Use <code>/help</code> to view all available commands. Use
+    <code>/search</code> to filter backgrounds by keywords or descriptions. For
+    example, <code>/search ice</code> searches for images related to ice.
+    To reset the search filter, use <code>/search</code> without a search term.
+  </p>
 
-&#x20;   The build command prepares the website for deployment by compiling and
+  <h3>Available Commands</h3>
 
-&#x20;   optimizing the project files. The completed website can then be hosted on
+  <pre><code>/help
+/get [asset-id]
+/add [asset-id]
+/download
+/clear
+/search [term]</code></pre>
 
-&#x20;   a web server or connected to an installer method in a future release.
+  <h2>Project Status</h2>
 
-&#x20; </p>
-
-
-
-&#x20; <h2>Project Status</h2>
-
-
-
-&#x20; <p>
-
-&#x20;   <strong>Background Changer is currently in development.</strong> The core
-
-&#x20;   wallpaper selection, download, and 4K image-processing features are being
-
-&#x20;   prepared. Additional preset backgrounds, automatically loaded website data are<em>coming soon</em>.
-
-&#x20; </p>
-
-
-
-&#x20; <p>
-
-The .exe, or, installer file is coming if you <em>want</em> to download it, but it's probably easier to just download it now, I'll also put in ALL the bgs:) If you run npm run build, then go to /dist, then run Background Maker Setup 1.0.0.exe, you will be able to have it on your home screen! If you don't want BG App Code you can delete it, it's really only for the modders out there.
-
-&#x20; </p>
-
-
-
-&#x20; <h3>Animated Backgrounds and Commands</h3>
-
-&#x20; <p>
-
-&#x20; It is <em>suggested</em> that you install the lively wallpaper app <strong>before</strong> running npm start. This is to make your <em>experience</em> better overall. This is because, it can become <em>slower</em> if you don't install lively <em>before</em> you run npm start. <strong>Note:</strong> Lively put's a <em>lot</em> of strain on your gpu, so it's <strong>recommended</strong> that you only use moving wallpapers on devices that can handle it. <pre><code>npm start</code></pre>
-
-&#x20; </p>
-
-
-
-&#x20; <h4>How to use command line</h4>
-
-&#x20; <p>
-
-&#x20;  Use /help, to see <em>all</em> the commands. Use /search to search filter for key words and descriptions, for example, /search ice, finds images that are ice, then displays them, t reset the filter, simply type in /search.
-
-&#x20; </p>
-
-
-
-&#x20; <h5>All the commands</h5>
-
-&#x20; <p>
-
-&#x20; <pre>COMMANDS // /get \[asset-id] · /add \[asset-id] · /download · /clear · /search \[term]</pre>
-
-&#x20; </p>
-
-&#x20; 
-
+  <p>
+    <strong>Background Changer is currently in development.</strong>
+    Core wallpaper selection, downloading, and 4K image-processing features are
+    being prepared. Additional preset backgrounds and automatically loaded
+    website data are coming soon.
+  </p>
 </section>
-
-
-

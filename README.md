@@ -91,7 +91,6 @@
 
 
 &#x20; <pre><code>npm install
-
 npm install sharp</code></pre>
 
 
